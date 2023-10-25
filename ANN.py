@@ -15,7 +15,7 @@ while True:
 
     x_values.append(float(x_input))
     y_values.append(float(y_input))
-    bias.append(float(1))  # convert bias to float (all is 1's)
+    bias.append(float(1))  # add 1 for each input
     target.append(float(target_input))
 
 Thresh = float(input("Enter the value of the threshold: ")) # Threshold input
@@ -25,4 +25,4 @@ wy = float(input("Enter value of the initial weight for y: "))
 wb = float(input("Enter value of the initial weight for bias: "))
 
 num_items = len(x_values)  # Number of items in x, y, bias
-all_errors_zero = False  # All erors aren't zero (So we have to start the algo)
+all_errors_zero = False  # All errors aren't zero (So we have to start the algo)
