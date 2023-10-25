@@ -19,7 +19,7 @@ while True:
     target.append(float(target_input))
 
 Thresh = float(input("Enter the value of the threshold: ")) # Threshold input
-LR = float(input("Enter learning rate's value (if there isn't just enter 1): ")) #Learning rate input
+LR = float(input("Enter learning rate's value (if there isn't just enter 1): ")) # Learning rate input
 wx = float(input("Enter value of the initial weight for x: "))
 wy = float(input("Enter value of the initial weight for y: "))
 wb = float(input("Enter value of the initial weight for bias: "))
