@@ -59,4 +59,5 @@ while not all_errors_zero:
     S_values = []
 
 
+print("\nThe appropriate weights are ", wx, wy, wb)
 print(" Number of iterations:", ic/4)
