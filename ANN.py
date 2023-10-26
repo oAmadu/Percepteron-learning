@@ -61,5 +61,6 @@ while not all_errors_zero:
 wx = round(wx, 1)
 wy = round(wy, 1)
 wb = round(wb, 1)
+print("\n X: ", x_values, "\n Y: " , y_values, "\n T: " , target)
 print("\nThe appropriate weights are ", wx, wy, wb)
 print(" Number of iterations:", ic/4)
