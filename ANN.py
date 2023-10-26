@@ -58,9 +58,12 @@ while not all_errors_zero:
     # Reset the S list for the next iteration
     S_values = []
 
+x_values = [int(x) for x in x_values]
+y_values = [int(y) for y in y_values]
+target = [int(t) for t in target] # Converting every x,y,t elements to integers for cleaner output
+print("\n X: ", x_values, "\n Y: " , y_values, "\n T: " , target)
 wx = round(wx, 1)
 wy = round(wy, 1)
 wb = round(wb, 1)
-print("\n X: ", x_values, "\n Y: " , y_values, "\n T: " , target)
 print("\nThe appropriate weights are ", wx, wy, wb)
 print(" Number of iterations:", ic/4)
