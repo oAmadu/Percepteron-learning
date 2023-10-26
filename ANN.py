@@ -58,5 +58,5 @@ while not all_errors_zero:
     # Reset the S list for the next iteration
     S_values = []
 
-
+ic = ic/4
 print(" Number of iterations:", ic)
