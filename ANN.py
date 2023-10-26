@@ -58,6 +58,8 @@ while not all_errors_zero:
     # Reset the S list for the next iteration
     S_values = []
 
-
+wx = round(wx, 1)
+wy = round(wy, 1)
+wb = round(wb, 1)
 print("\nThe appropriate weights are ", wx, wy, wb)
 print(" Number of iterations:", ic/4)
